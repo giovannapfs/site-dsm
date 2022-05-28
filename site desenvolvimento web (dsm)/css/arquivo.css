@@ -160,12 +160,12 @@ textarea{
     padding: 15px;
 }
 input[type=submit]{
-    width: 10%;
+    width: 20%;
     height: auto;
     margin-left: 40%;
 }
 input[type=reset]{
-    width: 10%;
+    width: 20%;
     height: auto;
        
 }
@@ -192,11 +192,16 @@ video{
 /*menu responsivo*/
 label[for="bt_menu"]{
     display: none;
-}
+    }
 #bt_menu{
     display: none;
+    width: 10px;
+    height: 10px;
 }
 
+#btn_menu #menupng{
+    width: 100px;
+}
 @media screen and (max-width: 500px){
     #menu{
         display: none;
